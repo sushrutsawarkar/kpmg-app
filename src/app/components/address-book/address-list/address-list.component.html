@@ -1,0 +1,12 @@
+<div class="address-list-wrapper">
+  <ul class="list-group">
+    <li *ngFor="let item of addressList" class="list-group-item" (click)="onSelectAddressListItem(item)">
+      <div class="d-flex flex-column">
+        <span class="list-item-title">{{item.name}}</span>
+        <span class="list-item-desc"> {{item.email}}</span>
+        <span class="list-item-desc"> {{item.phone}}</span>
+      </div>
+    </li>
+  
+  </ul>
+</div>

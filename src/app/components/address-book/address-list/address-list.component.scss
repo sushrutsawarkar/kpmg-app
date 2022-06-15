@@ -1,0 +1,17 @@
+.address-list-wrapper{
+    .list-group{
+        .list-group-item{
+            .list-item-title{
+                font-size: 14px;
+                color: #F48224;
+            }
+            .list-item-desc{
+                font-size: 11px !important;
+            }
+            &:hover{
+                cursor: pointer;
+            }
+        }
+       
+    }
+}
